@@ -1,0 +1,19 @@
+Concept: Enter Summoner name in text box, Screen then loads stats of current game
+         similar to LoLNexus.
+
+Process steps:
+1. Enter API Key in page
+2. Enter Summoner name of in-game summoner
+3. Fetch Summoner ID of Summoner name
+4. Call Current game API
+5. JSON.Parse into object
+6. Use Object to
+    a. Create Banned Champion list
+    b. Sort players
+        i. Team
+        ii. Player name
+        iii. Champion played
+        iv. Summoner Spells
+        v. Runes
+        vi. Masteries
+7. Display to page
