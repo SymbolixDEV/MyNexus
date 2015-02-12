@@ -1,4 +1,3 @@
-//var apiKey = ""
 //API URLS
 // Champ by ID (apiChamp.concat(ID).concat("?").concat(apiKey))
 var apiChamp = "https://na.api.pvp.net/api/lol/na/v1.2/champion/";
