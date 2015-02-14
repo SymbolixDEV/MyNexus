@@ -28,14 +28,11 @@ function getChampID(IDNum) {
 //var champObject = JSON.parse(champJSON);
 
 (function() {
-  //console.log(champJSON);
-  //alert(champObject.id);
   var params = getURLParams();
   var apiKey = params[0];
-  //var apiKey = key.replace('\?','');
   var champID = getChampID(params[1]);
-  //alert(apiChamp.concat(champID).concat(apiKey));
   var champJSON = httpGet(apiChamp.concat(champID).concat(apiKey));
   var champObject = JSON.parse(champJSON);
+  console.log(champObject);
   alert(champObject.id);
 })()
